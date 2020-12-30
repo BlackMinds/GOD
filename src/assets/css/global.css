@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+#app {
+    height: 100%;
+}
+
+
+/* 解决cascader-menu的bug */
+
+.el-cascader-menu {
+    height: 240px;
+}
+
+.el-card {
+    margin-top: 15px;
+    /* min-width: 1300px; */
+}
+
+.min1500 {
+    min-width: 1400px;
+    /* background-color: aqua; */
+}
+
+.el-table th.gutter {
+    /* 7.8新加表头表格没对齐 */
+    display: table-cell !important;
+}
+
+.el-dialog__header {
+    padding: 0px;
+}
+
+.el-dialog__title {
+    background: #797979;
+    display: block;
+    padding: 5px;
+    /* border-radius: 5px; */
+    color: #fff;
+}
+
+.el-icon-close:before {
+    position: absolute;
+    top: -10px;
+    right: 1px;
+}
+
+/* .el-table .el-button { 会有行高bug的问题
+    margin-top: -15px;
+} */
+
+.el-date-editor.el-input {
+    width: 150px;
+}
+
+.el-date-editor--daterange.el-input__inner {
+    width: 300px;
+}
+
+.el-tabs--left .el-tabs__item.is-left {
+    text-align: center;
+}
+
+.el-tabs__item {
+    padding: 0 20px;
+    height: 25.2px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 25.2px;
+    display: inline-block;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #303133;
+    position: relative;
+}
+
+.el-table__fixed-right::before,
+.el-table__fixed::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0px;
+    background-color: #EBEEF5;
+    z-index: 4;
+}
+
+.tb .el-table__expanded-cell[class*=cell] {
+    padding: 0px 0px;
+}
+
+.tb .el-table__expanded-cell .el-form-item__label {
+    text-align: right;
+    vertical-align: middle;
+    float: left;
+    font-size: 14px;
+    color: #606266;
+    line-height: 30px;
+    padding: 0 12px 0 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.tb .el-form-item__content {
+    line-height: 25px;
+    position: relative;
+    font-size: 14px;
+}
+
+.tb .el-form-item__content .el-input__inner {
+    -webkit-appearance: none;
+    background-color: #FFF;
+    background-image: none;
+    border-radius: 4px;
+    border: 1px solid #DCDFE6;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #606266;
+    display: inline-block;
+    font-size: inherit;
+    height: 30px;
+    line-height: 40px;
+    outline: 0;
+    padding: 0 15px;
+    -webkit-transition: border-color .2s cubic-bezier(.645, .045, .355, 1);
+    transition: border-color .2s cubic-bezier(.645, .045, .355, 1);
+    width: 100%;
+}
+
+.tb .cell .el-input .el-input__inner {
+    -webkit-appearance: none;
+    background-color: #FFF;
+    background-image: none;
+    border-radius: 4px;
+    border: 1px solid #DCDFE6;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #606266;
+    display: inline-block;
+    font-size: inherit;
+    height: 25px;
+    line-height: 40px;
+    outline: 0;
+    padding: 0 15px;
+    -webkit-transition: border-color .2s cubic-bezier(.645, .045, .355, 1);
+    transition: border-color .2s cubic-bezier(.645, .045, .355, 1);
+    width: 100%;
+}
+
+.fenge {
+    position: absolute;
+    top: 34px;
+    left: 0px;
+    height: 25px;
+    width: 98.5%;
+    line-height: 25px;
+    padding-left: 15px;
+    background-color: #DCDFE6;
+}
+
+.fenge1 {
+    height: 25px;
+    width: 98.5%;
+    line-height: 25px;
+    padding-left: 15px;
+    background-color: #DCDFE6;
+    margin-bottom: 20px;
+}
